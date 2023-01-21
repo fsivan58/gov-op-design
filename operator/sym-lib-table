@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name tfg-rescue)(type Legacy)(uri ${KIPRJMOD}/tfg-rescue.lib)(options "")(descr ""))
+)

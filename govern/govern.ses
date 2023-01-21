@@ -1,0 +1,298 @@
+
+(session govern.ses
+  (base_design govern.dsn)
+  (placement
+    (resolution um 10)
+    (component "footprints:MRF24J40ME-I&slash_RM"
+      (place U1 1464564 -706374 front 0)
+    )
+    (component "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm"
+      (place U2 1587500 -1056640 front 0)
+    )
+    (component Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm
+      (place C1 1723640 -975360 front 0)
+    )
+    (component Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm::1
+      (place C2 1750570 -1136900 front 180)
+    )
+    (component Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm::2
+      (place C3 1512062 -1166622 front 180)
+    )
+    (component Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm::3
+      (place C4 1603400 -954126 front 180)
+    )
+    (component Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm
+      (place C5 1466850 -1033877 front 90)
+    )
+    (component Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm::4
+      (place C8 1660852 -1165606 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal
+      (place J3 1744472 -558546 front 90)
+    )
+    (component "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+      (place J4 1895602 -732282 front 270)
+    )
+    (component Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm
+      (place R1 1775970 -1029720 front 270)
+    )
+    (component Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm::1
+      (place R2 1561388 -1166368 front 0)
+    )
+    (component "Crystal:Crystal_HC18-U_Vertical"
+      (place Y1 1724660 -1031240 front 270)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (place J1 1401318 -1106170 front 180)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::1
+      (place J2 1457198 -1106170 front 180)
+    )
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical
+      (place R3 1784063 -784809 front 0)
+    )
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical::1
+      (place R4 1784443 -732028 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::2
+      (place J5 1897126 -1000202 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "6.0.2+dfsg-1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path B.Cu 7000
+            1748640 -975360
+            1750570 -977290
+            1750570 -1044100
+            1749120 -1045550
+            1749120 -1054250
+            1750570 -1055700
+            1750570 -1136900
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1578864 -731774
+            1350264 -731774
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1578864 -731774
+            1578864 -757174
+          )
+        )
+        (wire
+          (path B.Cu 7000
+            1748640 -975360
+            1816942 -907058
+            1816942 -759030
+            1803443 -745531
+          )
+        )
+        (wire
+          (path B.Cu 7000
+            1803443 -732028
+            1803443 -745531
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1817201 -732282
+            1817201 -737579
+            1797606 -757174
+            1578864 -757174
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1803443 -732028
+            1816947 -732028
+            1817201 -732282
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1817201 -732282
+            1874099 -732282
+          )
+        )
+        (wire
+          (path B.Cu 7000
+            1795272 -558546
+            1795272 -573549
+          )
+        )
+        (wire
+          (path B.Cu 7000
+            1803443 -732028
+            1803443 -581720
+            1795272 -573549
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1895602 -732282
+            1874099 -732282
+          )
+        )
+      )
+      (net "Net-(C1-Pad1)"
+        (wire
+          (path F.Cu 5000
+            1724660 -1031240
+            1774450 -1031240
+            1775970 -1029720
+          )
+        )
+        (wire
+          (path B.Cu 5000
+            1724660 -1031240
+            1723640 -1030220
+            1723640 -975360
+          )
+        )
+      )
+      (net "Net-(C2-Pad2)"
+        (wire
+          (path B.Cu 5000
+            1725570 -1136900
+            1725570 -1081150
+            1724660 -1080240
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1724660 -1080240
+            1775690 -1080240
+            1775970 -1080520
+          )
+        )
+      )
+      (net "Net-(J3-Pad1)"
+        (wire
+          (path B.Cu 5000
+            1744472 -558546
+            1744472 -572549
+          )
+        )
+        (wire
+          (path B.Cu 5000
+            1744472 -572549
+            1561388 -755633
+            1561388 -1166368
+          )
+        )
+      )
+      (net "Net-(J4-Pad2)"
+        (wire
+          (path F.Cu 2500
+            1803063 -784809
+            1893875 -784809
+            1895602 -783082
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1897126 -1000202
+            1897126 -988449
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1897126 -988449
+            1895602 -986925
+            1895602 -783082
+          )
+        )
+      )
+      (net "V3.3-micro"
+        (wire
+          (path F.Cu 5000
+            1512062 -1166622
+            1525731 -1180291
+            1598265 -1180291
+            1612188 -1166368
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1685852 -1165606
+            1671869 -1179589
+            1625409 -1179589
+            1612188 -1166368
+          )
+        )
+        (wire
+          (path B.Cu 5000
+            1784063 -784809
+            1784063 -792735
+            1609168 -967630
+            1591904 -967630
+            1578400 -954126
+          )
+        )
+      )
+      (net "GND-micro"
+        (wire
+          (path B.Cu 5000
+            1603400 -954126
+            1603400 -916696
+            1784443 -735653
+            1784443 -732028
+          )
+        )
+      )
+      (net +3V3
+        (wire
+          (path B.Cu 7000
+            1769872 -558546
+            1769872 -736784
+            1724082 -782574
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1578864 -782574
+            1724082 -782574
+          )
+        )
+        (wire
+          (path F.Cu 7000
+            1882123 -1025602
+            1724082 -867561
+            1724082 -782574
+          )
+        )
+        (via "Via[0-1]_800:400_um" 1724082 -782574
+        )
+        (wire
+          (path F.Cu 7000
+            1897126 -1025602
+            1882123 -1025602
+          )
+        )
+      )
+    )
+  )
+)

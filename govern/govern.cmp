@@ -1,0 +1,147 @@
+Cmp-Mod V01 Created by PcbNew   date = dom 21 nov 2021 23:01:40
+
+BeginCmp
+TimeStamp = 619C322C
+Path = /6198134B
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3241
+Path = /619819F3
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3256
+Path = /61A05FD8
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C326B
+Path = /619CE51D
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3279
+Path = /61A1FE57
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C328E
+Path = /61A9719D
+Reference = C6;
+ValeurCmp = 22uF;
+IdModule  = Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C32B1
+Path = /619D6292
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3331
+Path = /619A7D85
+Reference = J3;
+ValeurCmp = Conn_01x06;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3346
+Path = /61A96703
+Reference = J4;
+ValeurCmp = Conn_01x02;
+IdModule  = TerminalBlock:TerminalBlock_bornier-2_P5.08mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3359
+Path = /61981EED
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C336C
+Path = /61A14BF4
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3384
+Path = /61A2A5CC
+Reference = U1;
+ValeurCmp = MRF24J40ME;
+IdModule  = NCP:MRF24J40MA;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C33D7
+Path = /6197D9B3
+Reference = U2;
+ValeurCmp = DSPIC33EP128GM604;
+IdModule  = Housings_QFP:TQFP-44-1EP_10x10mm_Pitch0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C33ED
+Path = /61A9875E
+Reference = U3;
+ValeurCmp = AP1117;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3404
+Path = /619804FE
+Reference = Y1;
+ValeurCmp = 7.3728;
+IdModule  = Crystal:Crystal_HC18-U_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3B1B
+Path = /619A4F4A
+Reference = J1;
+ValeurCmp = Conn_01x02;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C3B30
+Path = /619A3735
+Reference = J2;
+ValeurCmp = Conn_01x02;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 619C45A3
+Path = /61A97ADE
+Reference = C7;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+EndListe

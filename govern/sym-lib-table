@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "tfg-rescue")(type "Legacy")(uri "${KIPRJMOD}/tfg-rescue.lib")(options "")(descr ""))
+  (lib (name "2022-07-12_15-41-06")(type "Legacy")(uri "/home/ivan/Documents/TFG/kicad/footprints/ul_MRF24J40ME-I-RM/KiCAD/2022-07-12_15-41-06/2022-07-12_15-41-06.lib")(options "")(descr ""))
+)

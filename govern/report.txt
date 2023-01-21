@@ -1,0 +1,25 @@
+Info: Reading netlist file '/home/ivan/Documents/tmpTFG/kicad/govern/govern.net'.
+
+Info: Using reference designators to match symbols and footprints.
+
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'C5:Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm'.
+Info: Processing symbol 'C1:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C2:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C3:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C4:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C8:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'J5:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'U1:footprints:MRF24J40ME-I&slash_RM'.
+Info: Processing symbol 'J3:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal'.
+Info: Processing symbol 'Y1:Crystal:Crystal_HC18-U_Vertical'.
+Info: Processing symbol 'U2:Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical'.
+Info: Processing symbol 'R1:Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm'.
+Info: Processing symbol 'R2:Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm'.
+Info: Processing symbol 'J4:TerminalBlock:TerminalBlock_bornier-2_P5.08mm'.
+
+
+Info: Total warnings: 0, errors: 0.

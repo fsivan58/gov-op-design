@@ -1537,7 +1537,7 @@
     (uuid 00000000-0000-0000-0000-0000619a3735)
     (property "Reference" "J2" (id 0) (at 96.0628 109.855 0))
     (property "Value" "Conn_01x02" (id 1) (at 96.0628 112.1664 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 93.98 118.11 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (id 2) (at 93.98 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 118.11 0)
@@ -1552,7 +1552,7 @@
     (uuid 00000000-0000-0000-0000-0000619a4f4a)
     (property "Reference" "J1" (id 0) (at 79.5528 109.855 0))
     (property "Value" "Conn_01x02" (id 1) (at 79.5528 112.1664 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 77.47 118.11 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (id 2) (at 77.47 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.47 118.11 0)
@@ -1709,7 +1709,7 @@
     (property "Value" "MRF24J40ME" (id 1) (at 81.28 20.8026 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "footprints:MRF24J40ME-I&slash_RM" (id 2) (at 82.55 22.86 0)
+    (property "Footprint" "NCP:MRF24J40ME" (id 2) (at 82.55 22.86 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 82.55 22.86 0)
@@ -1855,7 +1855,7 @@
     (uuid fbe45de8-cdcb-47ec-a154-9ac6d0dede3b)
     (property "Reference" "J5" (id 0) (at 245.11 48.26 90))
     (property "Value" "Conn_01x02" (id 1) (at 245.11 45.72 90))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 246.38 43.18 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (id 2) (at 246.38 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 246.38 43.18 0)
@@ -1910,10 +1910,10 @@
       (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-0000619a4f4a"
-      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619a3735"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619a7d85"
       (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")
@@ -1922,7 +1922,7 @@
       (reference "J4") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/fbe45de8-cdcb-47ec-a154-9ac6d0dede3b"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061981eed"
       (reference "R1") (unit 1) (value "1M") (footprint "Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm")
@@ -1937,7 +1937,7 @@
       (reference "R4") (unit 1) (value "0 ohm") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061a2a5cc"
-      (reference "U1") (unit 1) (value "MRF24J40ME") (footprint "footprints:MRF24J40ME-I&slash_RM")
+      (reference "U1") (unit 1) (value "MRF24J40ME") (footprint "NCP:MRF24J40ME")
     )
     (path "/00000000-0000-0000-0000-00006197d9b3"
       (reference "U2") (unit 1) (value "DSPIC33EP128GM604") (footprint "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm")

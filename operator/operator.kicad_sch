@@ -1690,7 +1690,7 @@
     (uuid 00000000-0000-0000-0000-0000619a3735)
     (property "Reference" "J2" (id 0) (at 96.0628 109.855 0))
     (property "Value" "Conn_01x02" (id 1) (at 96.0628 112.1664 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 93.98 118.11 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (id 2) (at 93.98 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 118.11 0)
@@ -1705,7 +1705,7 @@
     (uuid 00000000-0000-0000-0000-0000619a4f4a)
     (property "Reference" "J1" (id 0) (at 79.5528 109.855 0))
     (property "Value" "Conn_01x02" (id 1) (at 79.5528 112.1664 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 77.47 118.11 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (id 2) (at 77.47 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.47 118.11 0)
@@ -1862,7 +1862,7 @@
     (property "Value" "MRF24J40ME" (id 1) (at 81.28 20.8026 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "footprints:MRF24J40ME-I&slash_RM" (id 2) (at 82.55 22.86 0)
+    (property "Footprint" "NCP:MRF24J40ME" (id 2) (at 82.55 22.86 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 82.55 22.86 0)
@@ -2048,7 +2048,7 @@
   (symbol (lib_id "power:+3.3V") (at 189.23 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0a7f6136-867c-4d10-a0ab-d10917392a0b)
-    (property "Reference" "#PWR?" (id 0) (at 189.23 55.88 0)
+    (property "Reference" "#PWR0104" (id 0) (at 189.23 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 189.611 47.6758 0))
@@ -2064,7 +2064,7 @@
   (symbol (lib_id "power:+5V") (at 251.46 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b26ccc3d-300c-42b0-b392-cc072f60eda3)
-    (property "Reference" "#PWR?" (id 0) (at 251.46 38.1 0)
+    (property "Reference" "#PWR0105" (id 0) (at 251.46 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 251.46 46.3534 0))
@@ -2082,7 +2082,7 @@
     (uuid b7a6af85-c77d-476d-9e20-ce1bdec0fad4)
     (property "Reference" "J5" (id 0) (at 242.57 46.99 90))
     (property "Value" "Conn_01x02" (id 1) (at 242.57 44.45 90))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 243.84 41.91 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" (id 2) (at 243.84 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 243.84 41.91 0)
@@ -2106,6 +2106,12 @@
     (path "/00000000-0000-0000-0000-0000619b2cd6"
       (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/0a7f6136-867c-4d10-a0ab-d10917392a0b"
+      (reference "#PWR0104") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/b26ccc3d-300c-42b0-b392-cc072f60eda3"
+      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061a81789"
       (reference "#PWR0111") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -2114,12 +2120,6 @@
     )
     (path "/00000000-0000-0000-0000-000061b7c609"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0a7f6136-867c-4d10-a0ab-d10917392a0b"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/b26ccc3d-300c-42b0-b392-cc072f60eda3"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006198134b"
       (reference "C1") (unit 1) (value "22pF") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
@@ -2146,10 +2146,10 @@
       (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-0000619a4f4a"
-      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619a3735"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000619a7d85"
       (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")
@@ -2158,7 +2158,7 @@
       (reference "J4") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/b7a6af85-c77d-476d-9e20-ce1bdec0fad4"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061981eed"
       (reference "R1") (unit 1) (value "1M") (footprint "Resistor_THT:R_Box_L8.4mm_W2.5mm_P5.08mm")
@@ -2173,7 +2173,7 @@
       (reference "R4") (unit 1) (value "0 ohm") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061a2a5cc"
-      (reference "U1") (unit 1) (value "MRF24J40ME") (footprint "footprints:MRF24J40ME-I&slash_RM")
+      (reference "U1") (unit 1) (value "MRF24J40ME") (footprint "NCP:MRF24J40ME")
     )
     (path "/00000000-0000-0000-0000-00006197d9b3"
       (reference "U2") (unit 1) (value "DSPIC33EP128GM604") (footprint "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm")

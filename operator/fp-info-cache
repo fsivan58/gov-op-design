@@ -1,18 +1,4 @@
-20111991809441275
-Audio_Module
-Reverb_BTDR-1H
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
-Audio_Module
-Reverb_BTDR-1V
-Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
-audio belton reverb
-0
-7
-7
+20129620494201684
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -60130,20 +60116,6 @@ Mounting 4.5mm 9774100982
 8
 1
 NCP
-AP1117
-Transistor TO 220-3L
-TR TO220 DEV
-0
-4
-3
-NCP
-DFN-8_2.5_2.5
-
-
-0
-9
-9
-NCP
 GAS-socket-6
 
 
@@ -60151,12 +60123,12 @@ GAS-socket-6
 6
 6
 NCP
-LM317
-Transistor TO 220-3L
-TR TO220 DEV
+MKD-1365
+
+
 0
-4
-3
+2
+2
 NCP
 MRF24J40MA
 
@@ -60164,6 +60136,20 @@ MRF24J40MA
 0
 12
 12
+NCP
+MRF24J40ME
+
+
+0
+12
+12
+NCP
+Push-button
+
+
+0
+8
+8
 NCP
 RN4677
 
@@ -60179,19 +60165,19 @@ SHT31-ARP-B
 8
 8
 NCP
+TO-263-7-heatsink
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
+0
+12
+7
+NCP
 TO220-3L
 Transistor TO 220-3L
 TR TO220 DEV
 0
 4
-3
-NCP
-TO263-5
-
-
-0
-6
-5
+4
 NCP
 TO263-7
 
@@ -60200,12 +60186,33 @@ TO263-7
 8
 7
 NCP
+TO263-7-heatsink
+
+
+0
+8
+7
+NCP
+VEML7700
+
+
+0
+4
+4
+NCP
 bornier2-POT
 
 
 0
 4
 2
+NCP
+iAQ-core
+
+
+0
+6
+6
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
